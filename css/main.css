@@ -101,8 +101,7 @@ padding: 100px 0;
   display: inline-block;
   width: 80px;
   height: 80px;
-  background: #d7a857;
-  transform: rotate(45deg);
+  transform: rotate(0deg);
   margin: 20px;
 }
 
