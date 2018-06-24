@@ -10,6 +10,15 @@ height: 50px;
   height: 700px;
 }
 
+p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
 nav ul
 {
   list-style: none;
@@ -79,12 +88,12 @@ button
 
 .sub-heading
 {
-font-size: 18px;
+font-size: 35px;
 }
 
 .green-section
 {
-  background: #089DB0;
+  background: #2b323f;
   color: #fff;
 text-align: center;
 padding: 100px 0;
@@ -117,55 +126,57 @@ margin: 0 auto;
 
 .gray-section
 {
-background: #078494;
-color: #000;
+  background: #272d39;
+  color: #fff;
 }
 
 .gray-section .img-section
 {
   width: 45%;
 }
-.img-section img
-{
-  width: 100%;
-}
-.gray-section .text-section
-{
-  width: 55%;
+
+.img-section img {
+	width: 100%;
 }
 
-.article-preview>div
-{
-  float: left;
-  font-size: 0px;
+.text-section {
+	width: 55%;
+	position: relative;
+    top: 60px;
+    left: 40px;
 }
 
-.article-preview::after
+.article-preview::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.article-preview > div {
+	float: left;
+	font-size: 0;
+}
+
+
+.gray-section .artcle-preview .text-section p
 {
-  content: ;
-  display: block;
-  clear: both;
+  font-size:16px;
+}
+
+.article-preview:after
+{
+  content:;
+  display:block;
 }
 
 .text-section
 {
   position: relative;
   top: 68px;
-  left: 50px
+  left:50px;
 }
 
 .text-section h2
 {
-  margin-bottom: 20px;
-}
-
-.text-section p
-{
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.text-section >
-{
-  max-width:90%
+  margin-bottom: 20px；
 }
