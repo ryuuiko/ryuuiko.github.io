@@ -1,6 +1,6 @@
  nav
 {
-
+background: #4e4c5f;
 height: 50px;
 }
 
@@ -43,7 +43,7 @@ margin-right: 20px;
   	text-decoration: none;
   	display: inline-block;
   	height: inherit;
-  	color: #989898;
+  	color: #ccc;
   }
 
 nav ul li.logo
@@ -57,14 +57,14 @@ nav ul li.logo
   text-align: center;
   margin: 0 auto;
   position: relative;
-  top:310px ;
+  top:200px ;
   color: #ccc;
 }
 
 #banner .inner h1
 {
   color: #e66073;
-  margin: 0px;
+  margin: 1px;
 }
 
 button
