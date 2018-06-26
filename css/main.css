@@ -72,10 +72,10 @@ button
   border: none;
   background: #d7a857;
   color: #eee;
-  padding: 14px 40px;
 }
 button a
 {
+  padding: 14px 40px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
